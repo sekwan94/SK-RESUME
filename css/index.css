@@ -1,0 +1,91 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'yg-jalnan';
+    /* font-family: 'Open Sans', sans-serif; */
+}
+#section{
+    width: 100vw;
+    height: 100vh;
+}
+#article1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.article1_inner{
+    width: 100%;
+    height: 100%;
+    background: skyblue;
+}
+.article1_head{
+    padding-top: 20px;
+    text-align: center;
+}
+.article1_head h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 6em;
+}
+.article1_characters{
+
+}
+.article1_inner .play_btn{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.article1_inner .play_btn button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    color: #fff;
+    border-radius: 1.5em;
+    padding: 30px;
+    border: none;
+    background-color: #000;
+}
+
+
+#article2{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -1920px;
+    width: 100%;
+    height: 100%;
+}
+.article2_inner{
+    width: 100%;
+    height: 100%;
+    background: pink;
+}
+.article2_inner .itd_wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.article2_inner .itd_wrap .itd{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+}
+.article2_inner .itd_wrap .itd h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 6em;
+}
+
+
+
